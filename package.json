@@ -1,0 +1,20 @@
+{
+  "name": "json-validator-by-mask",
+  "version": "0.0.1",
+  "description": "Json validator by mask",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "npm run build && node ./test/index.mjs"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Xiadnoring",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
